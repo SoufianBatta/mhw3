@@ -371,7 +371,14 @@ FOOTER {
     color: rgb(255, 255, 255);
     border: 1px groove rgba(240, 123, 107, 0.89);
     background-color: rgba(255, 255, 255, 0.20);
+    padding-right: 2vw;
+    transition-duration: 1000ms
 }
+
+#menu a:not(:hover) {
+    transition-duration: 500ms;
+}
+
 
 #info a:hover {
     cursor: crosshair;
@@ -379,3 +386,6 @@ FOOTER {
     border: 1px groove rgba(240, 123, 107, 0.89);
     background-color: rgba(255, 255, 255, 0.20);
 }
+
+/*----------------------------------------------------------------------------------------------------------------------------*/
+
