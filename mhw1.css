@@ -219,12 +219,12 @@ section {
     color: rgb(13, 0, 122);
 
 }
-/*----------------------NEWS-----------------------*/
+/*----------------------Pokmmon-----------------------*/
 
-#news-container {
+#pokemon-container {
 
     height: auto;
-    width: 15%;
+    width: 20%;
 
     display: flex;
     flex-direction: column;
@@ -239,55 +239,27 @@ section {
     text-align: center;
 }
 
-#news-container .news{
-
-    background-color: rgba(243, 148, 172, 0.589);
-
-    height: fit-content;
-    width: 90%;
-
-    border-radius: 10px;
-
+#poke-form form{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-start;
-
-    margin-top: 10%;
-    margin-left: -10%;
-
- 
+    height: auto;
+    width: 100%;
 }
 
-#news-container span {
-
-    margin: 10px;
-    left: 5%;
-
-    position: relative;
-
-    width: fit-content;
+#poke-form input{
+    width: 60%;
+    font-size: 1.4vw;
+    margin-top: 5vh;
     height: fit-content;
-
-    
 }
 
-#news-container h5 {
-
-    margin: 5px;
-
-    height: 20%;
-
-}
-
-#news-container .continue_reading {
-
-    height: 20%;
-
-    font-weight: bold;
-
-    cursor: pointer;
-    
+#poke-form input[type="submit"]{
+    background-color:  rgb(240, 123, 107);
+    height: fit-content;
+    border-style: ridge;
+    border-radius: 20px;
 }
 /*--------------------------------------------------------FOOTER-----------------------------------------------------------*/
 
@@ -311,8 +283,10 @@ FOOTER {
     display: flex;
     flex-direction: column;
 
+    justify-content: space-around;
     width: 25%;
     height: 100%;
+    padding: 10%;
 }
 
 #back {
@@ -330,10 +304,6 @@ FOOTER {
     text-align: center;
 }
 
-#info a{
-    position: relative;
-    top: 40%;
-}
 #back a {
     color: bisque;
     text-decoration: none;
