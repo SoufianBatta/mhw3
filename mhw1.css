@@ -7,7 +7,7 @@ body {
     font-family: 'Delicious Handrawn', monospace;
     color: rgb(240, 230, 217);
 
-    background-color: blanchedalmond;
+    background-color: #ffebcd;
 
 }
 
@@ -177,7 +177,7 @@ section {
 
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
+    align-items: center;
     justify-content: space-around;
 
     margin: 30px;
@@ -188,7 +188,7 @@ section {
 
     height: 75%;
     width: 50%;
-
+    padding: 5vh ;
     display: inline-block;
 
     opacity: 50%;
@@ -372,11 +372,11 @@ FOOTER {
     border: 1px groove rgba(240, 123, 107, 0.89);
     background-color: rgba(255, 255, 255, 0.20);
     padding-right: 2vw;
-    transition-duration: 1000ms
+    transition-duration: 500ms
 }
 
 #menu a:not(:hover) {
-    transition-duration: 500ms;
+    transition-duration: 100ms;
 }
 
 
@@ -385,6 +385,16 @@ FOOTER {
     color: rgb(255, 255, 255);
     border: 1px groove rgba(240, 123, 107, 0.89);
     background-color: rgba(255, 255, 255, 0.20);
+}
+
+.topic img:hover {
+    margin: 5vh;
+    transform: scale(1.2,1.2);
+    transition-duration: 1000ms;
+}
+
+.topic img:not(:hover) {
+    transition-duration: 200ms;
 }
 
 /*----------------------------------------------------------------------------------------------------------------------------*/
